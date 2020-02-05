@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="theme_welcome" parent="Theme.AppCompat.NoActionBar"  >
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#008577</item>
+        <item name="colorPrimaryDark">#3D81A8</item>
+        <item name="android:navigationBarColor">#52549F</item>
+    </style>
+</resources>

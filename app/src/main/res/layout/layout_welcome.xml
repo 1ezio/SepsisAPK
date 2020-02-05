@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/welcomebg">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/roboto_black"
+        android:shadowColor="@color/text_shadow"
+        android:shadowDx="-1.0"
+        android:shadowDy="-1.0"
+        android:shadowRadius="2.0"
+        android:text="SEPSIS"
+        android:textColor="@color/light_font"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="150dp"
+        android:background="@drawable/button_round"
+        android:clickable="true"
+        android:fontFamily="@font/montserrat_bold"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:text="sourcedecode"
+        android:textColor="#084E75"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/about">
+
+        <Button
+            android:id="@+id/welcome_signup"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40dp"
+            android:text="signup"
+            android:textColor="#000000"
+            android:elevation="10dp"
+            android:textSize="20sp"
+            android:background="@drawable/button_round"
+            tools:layout_editor_absoluteX="126dp"
+            tools:layout_editor_absoluteY="785dp" />
+
+        <Button
+            android:id="@+id/welcome_login"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="40dp"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="login"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:elevation="10dp"
+            android:background="@drawable/button_round"
+            tools:layout_editor_absoluteX="263dp"
+            tools:layout_editor_absoluteY="785dp" />
+
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>

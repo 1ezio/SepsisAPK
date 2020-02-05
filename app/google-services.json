@@ -1,0 +1,93 @@
+{
+  "project_info": {
+    "project_number": "60282937045",
+    "firebase_url": "https://patient-da06d.firebaseio.com",
+    "project_id": "patient-da06d",
+    "storage_bucket": "patient-da06d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60282937045:android:e1ccc71bfb1a3bbea90c5c",
+        "android_client_info": {
+          "package_name": "com.anurag.sepsis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60282937045-4rnig2loj4qfmkdfvn4tdln232jvogia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anurag.sepsis",
+            "certificate_hash": "392a5fdff7fb78077f7d0a1b31d0dfa821c834ca"
+          }
+        },
+        {
+          "client_id": "60282937045-t04pcbeeis91f51tiae4av7dnug57h6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS7jXqR8qcjrQ9rWyj7-IHUPfUkc9vTVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60282937045-t04pcbeeis91f51tiae4av7dnug57h6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60282937045:android:7e59aef601e7de5ca90c5c",
+        "android_client_info": {
+          "package_name": "com.sepsis.sepsis"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "60282937045-vg9crhvetls7tqacjmfbaijhe8hk7ht2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sepsis.sepsis",
+            "certificate_hash": "0357075ca958a642fc22df5455e274fbb5d4c28a"
+          }
+        },
+        {
+          "client_id": "60282937045-kltjuv992tfs4jvk9aqenq238dv09ub3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sepsis.sepsis",
+            "certificate_hash": "c34d5331c603573bc405695c7a0d604cdbb9fed2"
+          }
+        },
+        {
+          "client_id": "60282937045-t04pcbeeis91f51tiae4av7dnug57h6q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDS7jXqR8qcjrQ9rWyj7-IHUPfUkc9vTVw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "60282937045-t04pcbeeis91f51tiae4av7dnug57h6q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
